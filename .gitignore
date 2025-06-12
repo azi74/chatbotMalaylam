@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# Models and large files
+models/  # Exclude pre-trained models (they should be trained locally or downloaded)
+!models/.gitkeep  # Keep empty directory structure
+
+# Dataset files (if they contain sensitive info)
+data/*.json
+!data/responses.json  # Keep template responses
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and outputs
+*.log
+*.output
+*.csv
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Large files
+*.h5
+*.pkl
+*.joblib
+*.gz
+
+# Exceptions (keep these)
+!data/responses.json  # Sample responses template
+!models/.gitkeep  # Empty file to preserve dir structure
