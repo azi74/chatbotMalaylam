@@ -1,0 +1,34 @@
+[
+    {
+        "text": "നമസ്കാരം",
+        "intent": "greeting"
+    },
+    {
+        "text": "ഹലോ",
+        "intent": "greeting"
+    },
+    {
+        "text": "കൊച്ചിയിലെ ടൂറിസ്റ്റ് സ്ഥലങ്ങൾ പറയാമോ",
+        "intent": "tourism_info",
+        "entities": [
+            {
+                "text": "കൊച്ചി",
+                "entity": "LOCATION"
+            }
+        ]
+    },
+    {
+        "text": "തിരുവനന്തപുരത്തെ ഹോട്ടലുകൾ ഏതൊക്കെ",
+        "intent": "hotel_booking",
+        "entities": [
+            {
+                "text": "തിരുവനന്തപുരം",
+                "entity": "LOCATION"
+            }
+        ]
+    },
+    {
+        "text": "വീണ്ടും കാണാം",
+        "intent": "goodbye"
+    }
+]
